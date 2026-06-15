@@ -6,28 +6,22 @@ plugins {
 }
 
 android {
-    namespace = "com.ouedyan.fluttermobiletemplate"
+    namespace = "com.example.auth"
     compileSdk = flutter.compileSdkVersion
-    // ndkVersion = flutter.ndkVersion // Default: 26.3.11579264
-    // The following plugins depend on a different Android NDK version:
-    // - flutter_native_splash 
-    // - flutter_secure_storage
-    // - path_provider_android
-    // - shared_preferences_android
-    ndkVersion = "27.0.12077973" 
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.ouedyan.fluttermobiletemplate"
+        applicationId = "com.example.auth"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
