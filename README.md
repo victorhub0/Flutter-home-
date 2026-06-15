@@ -1,3 +1,5 @@
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/cf85ea5f-a8c5-49a8-b1ae-5505350ee010" />
+<img width="1440" height="900" alt="Reg page" src="https://github.com/user-attachments/assets/ee351d30-42d2-47bb-993b-ec0f470737b4" />
 # auth
 
 A new Flutter project.
